@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4923587258874874199}
   - component: {fileID: 5081788788989894615}
   - component: {fileID: 5082105901860929437}
+  - component: {fileID: 5092061560340824819}
   m_Layer: 0
   m_Name: Cloud
   m_TagString: Untagged
@@ -458,7 +459,7 @@ ParticleSystem:
     randomizeRotationDirection: 0
     maxNumParticles: 1000
     size3D: 0
-    rotation3D: 0
+    rotation3D: 1
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
@@ -4441,7 +4442,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_RenderMode: 0
+  m_RenderMode: 4
   m_SortMode: 2
   m_MinParticleSize: 0
   m_MaxParticleSize: 10
@@ -4451,16 +4452,28 @@ ParticleSystemRenderer:
   m_SortingFudge: 0
   m_NormalDirection: 0.5
   m_ShadowBias: 0
-  m_RenderAlignment: 0
-  m_Pivot: {x: 0, y: 0, z: -0.28}
+  m_RenderAlignment: 2
+  m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 1
   m_EnableGPUInstancing: 0
-  m_ApplyActiveColorSpace: 0
+  m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_VertexStreams: 00010304020508
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &5092061560340824819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4918100917848960671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5090cfa0911e1a543a0ce5f73c04bd53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
