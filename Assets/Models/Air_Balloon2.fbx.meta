@@ -21,7 +21,22 @@ ModelImporter:
     4300000: HotAirBalloon
     4300002: Cube.006
     4300004: Balloon
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Balloon
+    second: {fileID: 2100000, guid: 2199b8a2de6571e49b69e7f6baa0041f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carrier
+    second: {fileID: 2100000, guid: 0ab61ea3688231648bdf45f47f46b76b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 6f06aa4ca70057c42a5edc219115d1d7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
