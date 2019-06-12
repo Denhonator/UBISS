@@ -17,7 +17,7 @@ public class CameraScript : MonoBehaviour
     }
 
     IEnumerator StartUp() {
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(1.5f);
         transform.parent.parent.position -= new Vector3(transform.position.x,0,transform.position.z);
         transform.parent.parent.rotation = Quaternion.Euler(0,-transform.rotation.eulerAngles.y,0);
     }
