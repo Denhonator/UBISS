@@ -6,10 +6,22 @@ public class CameraScript : MonoBehaviour
 {
     public int duration = 10;
     public float offset = 0.1f;
+
     private void OnTriggerEnter(Collider other) {
-        StartCoroutine(Shake((transform.parent.position - other.transform.position).normalized));
         Vector3 vel = other.transform.GetComponent<Rigidbody>().velocity;
         other.transform.GetComponent<Rigidbody>().velocity = new Vector3(-vel.x,vel.y,-vel.z);
+        Debug.Log(vel.sqrMagnitude);
+        if(vel.sqrMagnitude<10.0f)
+            return;
+        StartCoroutine(Shake((transform.parent.position - other.transform.position).normalized));
+    }
+    private void OnCollisionEnter(Collision other) {
+        Vector3 vel = other.transform.GetComponent<Rigidbody>().velocity;
+        other.transform.GetComponent<Rigidbody>().velocity = new Vector3(-vel.x,vel.y,-vel.z);
+        Debug.Log(vel.sqrMagnitude);
+        if(vel.sqrMagnitude<0.2f)
+            return;
+        StartCoroutine(Shake((transform.parent.position - other.transform.position).normalized));
     }
 
     private void Start() {
@@ -18,8 +30,8 @@ public class CameraScript : MonoBehaviour
 
     IEnumerator StartUp() {
         yield return new WaitForSeconds(1.5f);
-        transform.parent.parent.position -= new Vector3(transform.position.x,0,transform.position.z);
         transform.parent.parent.rotation = Quaternion.Euler(0,-transform.rotation.eulerAngles.y,0);
+        transform.parent.parent.position -= new Vector3(transform.position.x,0,transform.position.z);
     }
 
     IEnumerator Shake(Vector3 dir){

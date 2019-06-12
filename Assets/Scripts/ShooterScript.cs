@@ -8,7 +8,7 @@ public class ShooterScript : MonoBehaviour
     public Transform playerCamera;
     public float accuracy = 1;
     public float delay = 3.5f;
-    float strength = 0.7f;
+    public float strength = 0.7f;
     float timer = 0;
 
     void Update()
@@ -27,7 +27,6 @@ public class ShooterScript : MonoBehaviour
         Rigidbody rb = sphere.GetComponent<Rigidbody>();
         rb.velocity = Vector3.zero;
         yield return new WaitForSeconds(0.5f);
-        sphere.GetComponent<Collider>().isTrigger = true;
         Vector3 toPlayer = (playerCamera.position-transform.position);
         toPlayer.x += Random.Range(-accuracy,accuracy);
         toPlayer.y += 10.0f;
