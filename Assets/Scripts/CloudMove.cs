@@ -17,7 +17,7 @@ public class CloudMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Transform.Translate(direction * speed * time.deltaTime);
+        transform.Translate(direction * speed * Time.deltaTime);
         
     }
 }
