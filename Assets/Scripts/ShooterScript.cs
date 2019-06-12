@@ -6,6 +6,8 @@ public class ShooterScript : MonoBehaviour
 {
     public GameObject sphere;
     public Transform playerCamera;
+    public float accuracy = 1;
+    public float delay = 3.5f;
     float strength = 0.7f;
     float timer = 0;
 
