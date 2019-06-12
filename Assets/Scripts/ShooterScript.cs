@@ -10,13 +10,14 @@ public class ShooterScript : MonoBehaviour
     float strength = 0.7f;
     float timer = 0;
 
-    void Update(){
-        if (timer>3.5f)
+    void Update()
+    {
+        if (timer > delay)
         {
             StartCoroutine(Shoot());
             timer = 0;
         }
-        timer+=Time.deltaTime;
+        timer += Time.deltaTime;
     }
 
     IEnumerator Shoot(){
