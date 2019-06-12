@@ -5,25 +5,28 @@ using UnityEngine;
 public class ShooterScript : MonoBehaviour
 {
     public GameObject sphere;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //InvokeRepeating("Shoot", 1, 1);
-    }
+    public Transform playerCamera;
+    float strength = 0.7f;
+    float timer = 0;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
+    void Update(){
+        if (timer>3.5f)
         {
-            Shoot();
+            StartCoroutine(Shoot());
+            timer = 0;
         }
+        timer+=Time.deltaTime;
     }
 
-    public void Shoot()
-    {
-        //sphere.transform.position = new Vector3(10, 1, 5);
+    IEnumerator Shoot(){
+        sphere.transform.position = transform.position;
         Rigidbody rb = sphere.GetComponent<Rigidbody>();
-        rb.AddForce(-50, 0, 0, ForceMode.Impulse);
+        rb.velocity = Vector3.zero;
+        yield return new WaitForSeconds(0.5f);
+        Vector3 toPlayer = (playerCamera.position-transform.position);
+        toPlayer.x += Random.Range(-5.0f,5.0f);
+        toPlayer.y += 10.0f;
+        toPlayer.z += Random.Range(-5.0f,5.0f);
+        rb.AddForce(toPlayer*strength, ForceMode.Impulse);
     }
 }
