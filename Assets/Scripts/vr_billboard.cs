@@ -4,17 +4,17 @@
      
     public class vr_billboard : MonoBehaviour
     {
-        static Transform tCam = null;
+        public Transform tCam;
         void Update ()
         {
-            if(!tCam)
+            /*if(!tCam)
             {
                 if(!Camera.main)
                 {
                     return;
                 }
                 tCam = Camera.main.transform;
-            }
+            }*/
             transform.LookAt(tCam.position, Vector3.up);
         }
     }
