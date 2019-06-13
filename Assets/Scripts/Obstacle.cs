@@ -7,6 +7,8 @@ public class Obstacle : MonoBehaviour
 {
     public CameraScript player;
     Rigidbody rb;
+    public SteamVR_Action_Vibration hapticAction = SteamVR_Input.GetAction<SteamVR_Action_Vibration>("Haptic");
+    SteamVR_Input_Sources handType;
 
     void Start()
     {
@@ -14,10 +16,14 @@ public class Obstacle : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other) {
         rb.velocity = new Vector3(-rb.velocity.x, rb.velocity.y, -rb.velocity.z);
-        if (other.name.Contains("Controller")){
-            
+        player.GotHit(transform);
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name.Contains("Controller"))
+        {
+            handType = collision.gameObject.name.Contains("right") ? SteamVR_Input_Sources.RightHand : SteamVR_Input_Sources.LeftHand;
+            hapticAction.Execute(0, 0.2f, 200, 1, handType);
         }
-        else
-            player.GotHit(transform);
     }
 }
