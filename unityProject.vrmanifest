@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.ubiss.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\UBISS\\Unity\\UBISS\\actions.json",
+      "action_manifest_path": "C:\\Users\\mikromies1.STUDENT\\Documents\\GitHub\\UBISS\\actions.json",
       "strings": {
         "en_us": {
           "name": "UBISS [Testing]"
