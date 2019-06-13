@@ -19,7 +19,7 @@ public class ShooterScript : MonoBehaviour
     {
         if (timer > delay)
         {
-            StartCoroutine(Shoot());
+            Shoot();
             timer = 0;
         }
         timer += Time.deltaTime;
@@ -27,17 +27,17 @@ public class ShooterScript : MonoBehaviour
         cannon.transform.DOLookAt(playerCamera.transform.position, .1f, AxisConstraint.None);
     }
 
-    IEnumerator Shoot()
+    void Shoot()
     {
+        GetComponent<AudioSource>().Play();
         sphere.GetComponent<Collider>().isTrigger = false;
         sphere.transform.position = nozzle.transform.position;
         Rigidbody rb = sphere.GetComponent<Rigidbody>();
         rb.velocity = Vector3.zero;
-        yield return null;
-        Vector3 toPlayer = (playerCamera.position - transform.position);
+        Vector3 toPlayer = cannon.transform.forward * (playerCamera.position-transform.position).magnitude;
         toPlayer.x += Random.Range(-accuracy, accuracy);
         toPlayer.y += 10.0f;
         toPlayer.z += Random.Range(-accuracy, accuracy);
-        rb.AddForce(toPlayer * strength, ForceMode.Impulse);
+        rb.AddForce(toPlayer * (strength + Random.Range(-strength*0.1f,strength*0.1f)), ForceMode.Impulse);
     }
 }
