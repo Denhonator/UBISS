@@ -27,6 +27,7 @@ public class CameraScript : MonoBehaviour
 
     IEnumerator Shake(Vector3 dir)
     {
+        StartCoroutine(GetComponent<CameraFadeImageTry>().Fade());
         for (int i = 1; i <= duration; i++)
         {
             transform.parent.localPosition = dir * offset * i;
