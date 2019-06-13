@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
 
 public class CameraScript : MonoBehaviour
 {
@@ -27,6 +28,8 @@ public class CameraScript : MonoBehaviour
 
     IEnumerator Shake(Vector3 dir)
     {
+        SteamVR_Fade.View(Color.black, 0);
+        SteamVR_Fade.View(Color.clear, 1);
         for (int i = 1; i <= duration; i++)
         {
             transform.parent.localPosition = dir * offset * i;
