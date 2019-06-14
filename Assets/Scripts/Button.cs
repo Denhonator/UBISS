@@ -8,19 +8,9 @@ public class Button : MonoBehaviour
 
     public Vector3 move;
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.name.Contains("Controller"))
-        {
-            StartCoroutine(Push());
-            SteamVR_Fade.View(Color.clear, 0);
-            SteamVR_Fade.View(Color.black, 1);
-        }
-    }
-
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name.Contains("Controller"))
+        if (!CameraScript.shaking && other.gameObject.name.Contains("Controller"))
         {
             Destroy(GetComponent<Collider>());
             Destroy(GameObject.Find("Environment"));
@@ -40,7 +30,6 @@ public class Button : MonoBehaviour
 
     IEnumerator Push()
     {
-        
         for(int i = 0; i<10; i++)
         {
             transform.localPosition -= move;
@@ -51,5 +40,7 @@ public class Button : MonoBehaviour
             transform.localPosition += move;
             yield return new WaitForEndOfFrame();
         }
+        yield return new WaitForSeconds(10.0f);
+        Application.Quit();
     }
 }
