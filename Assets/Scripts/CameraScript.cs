@@ -12,7 +12,7 @@ public class CameraScript : MonoBehaviour
 
     public void GotHit(Transform other) {
         Vector3 vel = other.GetComponent<Rigidbody>().velocity;
-        if(vel.sqrMagnitude*other.GetComponent<Rigidbody>().mass>20.0f && (transform.position - other.position).sqrMagnitude<2)
+        if(vel.sqrMagnitude*other.GetComponent<Rigidbody>().mass>20.0f)
             StartCoroutine(Shake((transform.position - other.position).normalized));
     }
 
