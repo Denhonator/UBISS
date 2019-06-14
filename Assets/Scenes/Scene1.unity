@@ -1487,7 +1487,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.8, z: 0.2}
+  m_Size: {x: 0.2, y: 0.7, z: 0.2}
   m_Center: {x: 0, y: -0.4, z: 0}
 --- !u!114 &357240166
 MonoBehaviour:
@@ -2407,7 +2407,7 @@ PrefabInstance:
     - target: {fileID: 7709385709739982933, guid: 86f8f4d0bad371b4a99bee3a9304624a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.46
+      value: 3.55
       objectReference: {fileID: 0}
     - target: {fileID: 7709385709739982933, guid: 86f8f4d0bad371b4a99bee3a9304624a,
         type: 3}
@@ -2493,6 +2493,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709385709739596491, guid: 86f8f4d0bad371b4a99bee3a9304624a,
+        type: 3}
+      propertyPath: FeedbackFile.Id
+      value: 2e71026e30fbfba45cb49419890107a4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709385709739596491, guid: 86f8f4d0bad371b4a99bee3a9304624a,
+        type: 3}
+      propertyPath: FeedbackFile.Key
+      value: ArrowHit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709385709739596491, guid: 86f8f4d0bad371b4a99bee3a9304624a,
+        type: 3}
+      propertyPath: FeedbackFile.Value
+      value: '{"intervalMillis":20,"size":20,"name":"ArrowHit","durationMillis":246,"feedback":{"0":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,100,100,0,0,100,100,0,0,100,100,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0}],"20":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,86,86,0,0,86,86,0,0,86,86,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0}],"40":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,73,73,0,0,73,73,0,0,73,73,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0}],"60":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,60,60,0,0,60,60,0,0,60,60,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0}],"80":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,46,46,0,0,46,46,0,0,46,46,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,2,2,0,0,2,2,0,0,2,2,0,0,0,0,0],"texture":0}],"100":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,33,33,0,0,33,33,0,0,33,33,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,16,16,0,0,16,16,0,0,16,16,0,0,0,0,0],"texture":0}],"120":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,19,19,0,0,19,19,0,0,19,19,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,29,29,0,0,29,29,0,0,29,29,0,0,0,0,0],"texture":0}],"140":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,6,6,0,0,6,6,0,0,6,6,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,42,42,0,0,42,42,0,0,42,42,0,0,0,0,0],"texture":0}],"160":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,56,56,0,0,56,56,0,0,56,56,0,0,0,0,0],"texture":0}],"180":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,69,69,0,0,69,69,0,0,69,69,0,0,0,0,0],"texture":0}],"200":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,82,82,0,0,82,82,0,0,82,82,0,0,0,0,0],"texture":0}],"220":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,96,96,0,0,96,96,0,0,96,96,0,0,0,0,0],"texture":0}]},"project":{"id":868,"name":"ArrowHit","column":0,"row":0,"mediaFileUrl":null,"thumbnailUrl":null,"mediaFileDuration":0.226,"tracks":[{"id":1735,"enable":true,"projectId":868,"effects":[{"id":4163,"trackId":1735,"name":"path","startTime":0,"offsetTime":150,"priority":0,"modes":{"VestFront":{"texture":0,"mode":"DOT_MODE","dotMode":{"dotConnected":false,"feedback":[{"startTime":0,"endTime":150,"playbackType":"FADE_OUT","pointList":[{"index":9,"intensity":"1.000"},{"index":10,"intensity":"1.000"},{"index":6,"intensity":"1.000"},{"index":5,"intensity":"1.000"},{"index":13,"intensity":"1.000"},{"index":14,"intensity":"1.000"}]}]},"pathMode":{"feedback":[{"playbackType":"NONE","movingPattern":"CONST_SPEED","pointList":[]}]}},"VestBack":{"texture":0,"mode":"DOT_MODE","dotMode":{"dotConnected":false,"feedback":[]},"pathMode":{"feedback":[{"playbackType":"NONE","movingPattern":"CONST_SPEED","pointList":[]}]}}}},{"id":4164,"trackId":1735,"name":"path","startTime":76,"offsetTime":150,"priority":0,"modes":{"VestFront":{"texture":0,"mode":"PATH_MODE","dotMode":{"dotConnected":false,"feedback":[{"startTime":0,"endTime":150,"playbackType":"NONE","pointList":[]}]},"pathMode":{"feedback":[{"playbackType":"NONE","movingPattern":"CONST_SPEED","pointList":[]}]}},"VestBack":{"texture":0,"mode":"DOT_MODE","dotMode":{"dotConnected":false,"feedback":[{"startTime":0,"endTime":150,"playbackType":"FADE_IN","pointList":[{"index":10,"intensity":"1.000"},{"index":9,"intensity":"1.000"},{"index":14,"intensity":"1.000"},{"index":13,"intensity":"1.000"},{"index":5,"intensity":"1.000"},{"index":6,"intensity":"1.000"}]}]},"pathMode":{"feedback":[{"playbackType":"NONE","movingPattern":"CONST_SPEED","pointList":[{"x":"0.357","y":"0.017","intensity":"0.500","time":0},{"x":"0.690","y":"0.021","intensity":"0.500","time":150}]}]}}}}]},{"id":1736,"enable":true,"projectId":868,"effects":[]}],"hapticEffectSize":0,"parentId":120,"creationTime":null,"updateTime":"2018-03-06T09:42:07.000Z","peaks":null,"layout":{"id":3,"name":"Tactot","layouts":{"VestFront":[{"index":0,"x":"0.000","y":"0.000","distance":0},{"index":1,"x":"0.333","y":"0.000","distance":0},{"index":2,"x":"0.667","y":"0.000","distance":0},{"index":3,"x":"1.000","y":"0.000","distance":0},{"index":4,"x":"0.000","y":"0.250","distance":0},{"index":5,"x":"0.333","y":"0.250","distance":0},{"index":6,"x":"0.667","y":"0.250","distance":0},{"index":7,"x":"1.000","y":"0.250","distance":0},{"index":8,"x":"0.000","y":"0.500","distance":0},{"index":9,"x":"0.333","y":"0.500","distance":0},{"index":10,"x":"0.667","y":"0.500","distance":0},{"index":11,"x":"1.000","y":"0.500","distance":0},{"index":12,"x":"0.000","y":"0.750","distance":0},{"index":13,"x":"0.333","y":"0.750","distance":0},{"index":14,"x":"0.667","y":"0.750","distance":0},{"index":15,"x":"1.000","y":"0.750","distance":0},{"index":16,"x":"0.000","y":"1.000","distance":0},{"index":17,"x":"0.333","y":"1.000","distance":0},{"index":18,"x":"0.667","y":"1.000","distance":0},{"index":19,"x":"1.000","y":"1.000","distance":0}],"VestBack":[{"index":0,"x":"0.000","y":"0.000","distance":0},{"index":1,"x":"0.333","y":"0.000","distance":0},{"index":2,"x":"0.667","y":"0.000","distance":0},{"index":3,"x":"1.000","y":"0.000","distance":0},{"index":4,"x":"0.000","y":"0.250","distance":0},{"index":5,"x":"0.333","y":"0.250","distance":0},{"index":6,"x":"0.667","y":"0.250","distance":0},{"index":7,"x":"1.000","y":"0.250","distance":0},{"index":8,"x":"0.000","y":"0.500","distance":0},{"index":9,"x":"0.333","y":"0.500","distance":0},{"index":10,"x":"0.667","y":"0.500","distance":0},{"index":11,"x":"1.000","y":"0.500","distance":0},{"index":12,"x":"0.000","y":"0.750","distance":0},{"index":13,"x":"0.333","y":"0.750","distance":0},{"index":14,"x":"0.667","y":"0.750","distance":0},{"index":15,"x":"1.000","y":"0.750","distance":0},{"index":16,"x":"0.000","y":"1.000","distance":0},{"index":17,"x":"0.333","y":"1.000","distance":0},{"index":18,"x":"0.667","y":"1.000","distance":0},{"index":19,"x":"1.000","y":"1.000","distance":0}]},"type":"Vest","public":true}}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7709385709739695209, guid: 86f8f4d0bad371b4a99bee3a9304624a,
         type: 3}
@@ -2607,7 +2622,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766282177}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4171,6 +4186,40 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2199b8a2de6571e49b69e7f6baa0041f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0a08ca136aeb0e40ae3a6a36d4bac5f, type: 3}
+--- !u!21 &1345624122
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1363999094 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5127232177813331194, guid: 98dbf020121dee849b24218d741a02e2,
@@ -4220,7 +4269,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402730700}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4728,166 +4777,6 @@ PrefabInstance:
     - {fileID: 9039040536939852878, guid: 98dbf020121dee849b24218d741a02e2, type: 3}
     - {fileID: 6984438213188479034, guid: 98dbf020121dee849b24218d741a02e2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 98dbf020121dee849b24218d741a02e2, type: 3}
---- !u!43 &1529776053
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 9
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
-  m_VertexData:
-    serializedVersion: 2
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimized: 0
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1539932764 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5127232177813331194, guid: 98dbf020121dee849b24218d741a02e2,
@@ -5434,7 +5323,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1944107402}
+  - {fileID: 1345624122}
   - {fileID: 477287866}
   - {fileID: 1095157699}
   - {fileID: 0}
@@ -5465,7 +5354,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741253888}
-  m_Mesh: {fileID: 1529776053}
+  m_Mesh: {fileID: 2048204658}
 --- !u!1 &1754866445 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5127232177813331194, guid: 98dbf020121dee849b24218d741a02e2,
@@ -5987,40 +5876,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 212096812}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1944107402
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1995722932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5127232177813331195, guid: 98dbf020121dee849b24218d741a02e2,
@@ -6140,6 +5995,166 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ab21e726ba3f5b458f80d59f15ab8da, type: 3}
+--- !u!43 &2048204658
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 9
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_VertexData:
+    serializedVersion: 2
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimized: 0
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &2053020502
 GameObject:
   m_ObjectHideFlags: 0
@@ -6962,7 +6977,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3573565068380823563}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -7010,7 +7025,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3573565068380924461}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2e81b378186c0ed4c98c04cfd4096914, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -7098,7 +7113,7 @@ PrefabInstance:
     - target: {fileID: 7709385709739982933, guid: 86f8f4d0bad371b4a99bee3a9304624a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1309998
+      value: 3.2209997
       objectReference: {fileID: 0}
     - target: {fileID: 7709385709739982933, guid: 86f8f4d0bad371b4a99bee3a9304624a,
         type: 3}
@@ -7184,6 +7199,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709385709739596491, guid: 86f8f4d0bad371b4a99bee3a9304624a,
+        type: 3}
+      propertyPath: FeedbackFile.Id
+      value: 2e71026e30fbfba45cb49419890107a4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709385709739596491, guid: 86f8f4d0bad371b4a99bee3a9304624a,
+        type: 3}
+      propertyPath: FeedbackFile.Key
+      value: ArrowHit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709385709739596491, guid: 86f8f4d0bad371b4a99bee3a9304624a,
+        type: 3}
+      propertyPath: FeedbackFile.Value
+      value: '{"intervalMillis":20,"size":20,"name":"ArrowHit","durationMillis":246,"feedback":{"0":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,100,100,0,0,100,100,0,0,100,100,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0}],"20":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,86,86,0,0,86,86,0,0,86,86,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0}],"40":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,73,73,0,0,73,73,0,0,73,73,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0}],"60":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,60,60,0,0,60,60,0,0,60,60,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0}],"80":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,46,46,0,0,46,46,0,0,46,46,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,2,2,0,0,2,2,0,0,2,2,0,0,0,0,0],"texture":0}],"100":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,33,33,0,0,33,33,0,0,33,33,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,16,16,0,0,16,16,0,0,16,16,0,0,0,0,0],"texture":0}],"120":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,19,19,0,0,19,19,0,0,19,19,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,29,29,0,0,29,29,0,0,29,29,0,0,0,0,0],"texture":0}],"140":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,6,6,0,0,6,6,0,0,6,6,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,42,42,0,0,42,42,0,0,42,42,0,0,0,0,0],"texture":0}],"160":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,56,56,0,0,56,56,0,0,56,56,0,0,0,0,0],"texture":0}],"180":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,69,69,0,0,69,69,0,0,69,69,0,0,0,0,0],"texture":0}],"200":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,82,82,0,0,82,82,0,0,82,82,0,0,0,0,0],"texture":0}],"220":[{"position":"VestFront","mode":"DOT_MODE","values":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"texture":0},{"position":"VestBack","mode":"DOT_MODE","values":[0,0,0,0,0,96,96,0,0,96,96,0,0,96,96,0,0,0,0,0],"texture":0}]},"project":{"id":868,"name":"ArrowHit","column":0,"row":0,"mediaFileUrl":null,"thumbnailUrl":null,"mediaFileDuration":0.226,"tracks":[{"id":1735,"enable":true,"projectId":868,"effects":[{"id":4163,"trackId":1735,"name":"path","startTime":0,"offsetTime":150,"priority":0,"modes":{"VestFront":{"texture":0,"mode":"DOT_MODE","dotMode":{"dotConnected":false,"feedback":[{"startTime":0,"endTime":150,"playbackType":"FADE_OUT","pointList":[{"index":9,"intensity":"1.000"},{"index":10,"intensity":"1.000"},{"index":6,"intensity":"1.000"},{"index":5,"intensity":"1.000"},{"index":13,"intensity":"1.000"},{"index":14,"intensity":"1.000"}]}]},"pathMode":{"feedback":[{"playbackType":"NONE","movingPattern":"CONST_SPEED","pointList":[]}]}},"VestBack":{"texture":0,"mode":"DOT_MODE","dotMode":{"dotConnected":false,"feedback":[]},"pathMode":{"feedback":[{"playbackType":"NONE","movingPattern":"CONST_SPEED","pointList":[]}]}}}},{"id":4164,"trackId":1735,"name":"path","startTime":76,"offsetTime":150,"priority":0,"modes":{"VestFront":{"texture":0,"mode":"PATH_MODE","dotMode":{"dotConnected":false,"feedback":[{"startTime":0,"endTime":150,"playbackType":"NONE","pointList":[]}]},"pathMode":{"feedback":[{"playbackType":"NONE","movingPattern":"CONST_SPEED","pointList":[]}]}},"VestBack":{"texture":0,"mode":"DOT_MODE","dotMode":{"dotConnected":false,"feedback":[{"startTime":0,"endTime":150,"playbackType":"FADE_IN","pointList":[{"index":10,"intensity":"1.000"},{"index":9,"intensity":"1.000"},{"index":14,"intensity":"1.000"},{"index":13,"intensity":"1.000"},{"index":5,"intensity":"1.000"},{"index":6,"intensity":"1.000"}]}]},"pathMode":{"feedback":[{"playbackType":"NONE","movingPattern":"CONST_SPEED","pointList":[{"x":"0.357","y":"0.017","intensity":"0.500","time":0},{"x":"0.690","y":"0.021","intensity":"0.500","time":150}]}]}}}}]},{"id":1736,"enable":true,"projectId":868,"effects":[]}],"hapticEffectSize":0,"parentId":120,"creationTime":null,"updateTime":"2018-03-06T09:42:07.000Z","peaks":null,"layout":{"id":3,"name":"Tactot","layouts":{"VestFront":[{"index":0,"x":"0.000","y":"0.000","distance":0},{"index":1,"x":"0.333","y":"0.000","distance":0},{"index":2,"x":"0.667","y":"0.000","distance":0},{"index":3,"x":"1.000","y":"0.000","distance":0},{"index":4,"x":"0.000","y":"0.250","distance":0},{"index":5,"x":"0.333","y":"0.250","distance":0},{"index":6,"x":"0.667","y":"0.250","distance":0},{"index":7,"x":"1.000","y":"0.250","distance":0},{"index":8,"x":"0.000","y":"0.500","distance":0},{"index":9,"x":"0.333","y":"0.500","distance":0},{"index":10,"x":"0.667","y":"0.500","distance":0},{"index":11,"x":"1.000","y":"0.500","distance":0},{"index":12,"x":"0.000","y":"0.750","distance":0},{"index":13,"x":"0.333","y":"0.750","distance":0},{"index":14,"x":"0.667","y":"0.750","distance":0},{"index":15,"x":"1.000","y":"0.750","distance":0},{"index":16,"x":"0.000","y":"1.000","distance":0},{"index":17,"x":"0.333","y":"1.000","distance":0},{"index":18,"x":"0.667","y":"1.000","distance":0},{"index":19,"x":"1.000","y":"1.000","distance":0}],"VestBack":[{"index":0,"x":"0.000","y":"0.000","distance":0},{"index":1,"x":"0.333","y":"0.000","distance":0},{"index":2,"x":"0.667","y":"0.000","distance":0},{"index":3,"x":"1.000","y":"0.000","distance":0},{"index":4,"x":"0.000","y":"0.250","distance":0},{"index":5,"x":"0.333","y":"0.250","distance":0},{"index":6,"x":"0.667","y":"0.250","distance":0},{"index":7,"x":"1.000","y":"0.250","distance":0},{"index":8,"x":"0.000","y":"0.500","distance":0},{"index":9,"x":"0.333","y":"0.500","distance":0},{"index":10,"x":"0.667","y":"0.500","distance":0},{"index":11,"x":"1.000","y":"0.500","distance":0},{"index":12,"x":"0.000","y":"0.750","distance":0},{"index":13,"x":"0.333","y":"0.750","distance":0},{"index":14,"x":"0.667","y":"0.750","distance":0},{"index":15,"x":"1.000","y":"0.750","distance":0},{"index":16,"x":"0.000","y":"1.000","distance":0},{"index":17,"x":"0.333","y":"1.000","distance":0},{"index":18,"x":"0.667","y":"1.000","distance":0},{"index":19,"x":"1.000","y":"1.000","distance":0}]},"type":"Vest","public":true}}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7709385709739695209, guid: 86f8f4d0bad371b4a99bee3a9304624a,
         type: 3}
