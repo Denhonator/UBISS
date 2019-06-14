@@ -12,6 +12,7 @@ public class Button : MonoBehaviour
     {
         if (!CameraScript.shaking && other.gameObject.name.Contains("Controller"))
         {
+            GetComponent<AudioSource>().Play();
             Destroy(GetComponent<Collider>());
             Destroy(GameObject.Find("Environment"));
             foreach(AudioSource a in FindObjectsOfType<AudioSource>())
