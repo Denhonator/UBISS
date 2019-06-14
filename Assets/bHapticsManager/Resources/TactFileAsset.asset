@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa1d0ffcd8af8854a8faf5a9eddfacef, type: 3}
-  m_Name: TactFileAsset
+  m_Name: 
   m_EditorClassIdentifier: 
   FeedbackFiles:
   - Id: c416f582caff3b0c6a43b8e186aabaf6
